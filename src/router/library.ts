@@ -1,5 +1,5 @@
 import express from "express"
-import { exists, existsSync, readdirSync, statSync } from "fs"
+import { existsSync, readdirSync } from "fs"
 import path from "path"
 
 const router = express.Router()
